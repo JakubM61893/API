@@ -1,0 +1,15 @@
+GET http://localhost:3000/configuration
+
+###
+
+GET http://localhost:3000/configuration/62d027a6ea8266a2f12efb45
+
+###
+
+POST http://localhost:3000/configuration
+Content-Type: application/json
+
+{
+    "name": "timeBetweenWaves",
+    "value": "0"
+}
